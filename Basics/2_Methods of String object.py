@@ -1,0 +1,13 @@
+course = "     python programming"
+print(course)
+stripped_course = course.strip()
+print(stripped_course)
+print(stripped_course.capitalize())
+print(stripped_course.upper())
+print(stripped_course.title())
+print(stripped_course.center(100, "*"))
+print(course.find("on"))
+print("on" in course)
+print("patate" in course)
+print("patate" not in course)
+print(course.replace("o", "O"))
